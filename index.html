@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="estilos.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+<script>
+    if('ServiceWorker' in navigator){
+        window.addEventListener('load', ()=>{
+navigator.serviceWorker.register('service-worker.js')
+.then(reg=> console.log('service worker registrado',reg))
+.catch(err=>console.log('error al registrar el service worker',err));
+        });
+    }
+</script>
+</head>
+<center>
+<body>
+    <nav class="navbar navbar-expand-lg custom-navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="looney-tunes.png" height="50px" width="50px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                   
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="cocinera.html">Cocinera</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="maternidad.html">Maternidad</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="albañileria.html">Albañilería</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Deporte
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Zumba</a></li>
+                            <li><a class="dropdown-item" href="#">Yoga</a></li>
+                            <li><a class="dropdown-item" href="#">Box</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <h1>¡Hola soy Vero!</h1>
+    
+    <a class="navbar-brand" href="#"><img src="minioms.jpg" height="500px" width="500px"></a>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</center>
+</html>

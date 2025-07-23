@@ -1,0 +1,21 @@
+{
+    "name": "vero app",
+    "short_name": "vero app",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#000000",
+    "theme_color": "#00d6ee",
+    "icons": [
+        {
+            "src": "looney-tunes.png",
+            "sizes": "192x192",
+            "type": "imagen/png"
+
+        },
+        {
+            "src":"looney-tunes.png",
+            "sizes": "512x512",
+            "type":"imagen/png"
+        }
+    ]
+}
