@@ -9,13 +9,13 @@
         {
             "src": "conejo.png",
             "sizes": "192x192",
-            "type": "imagen/png"
+            "type": "image/png"
 
         },
         {
             "src":"conejo512.png",
             "sizes": "512x512",
-            "type":"imagen/png"
+            "type":"image/png"
         }
     ]
 }
