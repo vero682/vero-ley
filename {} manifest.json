@@ -7,13 +7,13 @@
     "theme_color": "#00d6ee",
     "icons": [
         {
-            "src": "looney-tunes.png",
+            "src": "conejo.png",
             "sizes": "192x192",
             "type": "imagen/png"
 
         },
         {
-            "src":"looney-tunes.png",
+            "src":"conejo512.png",
             "sizes": "512x512",
             "type":"imagen/png"
         }
